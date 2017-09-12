@@ -8,7 +8,7 @@ $(function(){
 
 		var screenWidth=oHtml.clientWidth;
 
-		if (screenWidth>=640) {
+		if (screenWidth>=750) {
 
 			oHtml.style.fontSize='40px';
 
@@ -18,7 +18,7 @@ $(function(){
 
 		}else{
 
-			oHtml.style.fontSize=screenWidth/(640/40)+'px';
+			oHtml.style.fontSize=screenWidth/(750/40)+'px';
 		}
 	}
 

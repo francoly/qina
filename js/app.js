@@ -32,6 +32,10 @@ myApp.config(['$routeProvider','$locationProvider',function ($routeProvider,$loc
 					templateUrl: 'html/tianjiadizhi.html',
 					controller: 'tianjiadizhi'
 				})
+				.when('/user_center', {
+					templateUrl: 'html/user_center.html',
+					controller: 'user_center'
+				})
 				//可继续往下添加新路由
 				.otherwise({
 					redirectTo: '/'

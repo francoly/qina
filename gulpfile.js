@@ -27,7 +27,7 @@ gulp.task('watch',['testLess'],function(){
 })
 
 
-gulp.task('default',['testLess','webserver']); //定义默认任务
+gulp.task('default',['testLess','webserver','watch']); //定义默认任务
 
 //gulp.task(name[, deps], fn) 定义任务  name：任务名称 deps：依赖任务名称 fn：回调函数
 //gulp.src(globs[, options]) 执行任务处理的文件  globs：处理的文件路径(字符串或者字符串数组) 
